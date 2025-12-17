@@ -1,0 +1,14 @@
+
+class Main {
+    public static void main(String[] args) {
+        for(char ch ='E';ch>='A';ch--)
+        {
+            for(char chh = ch; chh >='A' ;chh--){
+                System.out.print(chh + " ");
+            }
+            System.out.println();
+        }
+        
+        
+    }
+}
